@@ -13,9 +13,12 @@
 		A015C075227DB48300639C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A015C074227DB48300639C94 /* Assets.xcassets */; };
 		A015C078227DB48300639C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A015C076227DB48300639C94 /* LaunchScreen.storyboard */; };
 		A015C07B227DB48300639C94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C07A227DB48300639C94 /* main.m */; };
-		A015C084227DE01000639C94 /* JavaCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C083227DE01000639C94 /* JavaCode.m */; };
-		A015C087227DE02900639C94 /* CppCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C086227DE02900639C94 /* CppCode.m */; };
-		A015C08A227DE51900639C94 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C089227DE51900639C94 /* AbstractFactory.m */; };
+		A015C084227DE01000639C94 /* OOPJavaCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C083227DE01000639C94 /* OOPJavaCode.m */; };
+		A015C087227DE02900639C94 /* OOPCppCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C086227DE02900639C94 /* OOPCppCode.m */; };
+		A015C08F2280352900639C94 /* ProcedureCppCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C08E2280352900639C94 /* ProcedureCppCode.m */; };
+		A015C0942280366C00639C94 /* ProcedureJavaCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C0932280366C00639C94 /* ProcedureJavaCode.m */; };
+		A015C0972280385000639C94 /* OOPFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C0962280385000639C94 /* OOPFactory.m */; };
+		A015C09A2280399200639C94 /* ProcedureFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C0992280399200639C94 /* ProcedureFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +32,21 @@
 		A015C077227DB48300639C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A015C079227DB48300639C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A015C07A227DB48300639C94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A015C081227DB4A400639C94 /* Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocol.h; sourceTree = "<group>"; };
-		A015C082227DE01000639C94 /* JavaCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavaCode.h; sourceTree = "<group>"; };
-		A015C083227DE01000639C94 /* JavaCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaCode.m; sourceTree = "<group>"; };
-		A015C085227DE02900639C94 /* CppCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CppCode.h; sourceTree = "<group>"; };
-		A015C086227DE02900639C94 /* CppCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CppCode.m; sourceTree = "<group>"; };
-		A015C088227DE51900639C94 /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
-		A015C089227DE51900639C94 /* AbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		A015C082227DE01000639C94 /* OOPJavaCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OOPJavaCode.h; sourceTree = "<group>"; };
+		A015C083227DE01000639C94 /* OOPJavaCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOPJavaCode.m; sourceTree = "<group>"; };
+		A015C085227DE02900639C94 /* OOPCppCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OOPCppCode.h; sourceTree = "<group>"; };
+		A015C086227DE02900639C94 /* OOPCppCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOPCppCode.m; sourceTree = "<group>"; };
+		A015C088227DE51900639C94 /* Factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		A015C08C2280346600639C94 /* CppCodeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CppCodeProtocol.h; sourceTree = "<group>"; };
+		A015C08D2280352800639C94 /* ProcedureCppCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProcedureCppCode.h; sourceTree = "<group>"; };
+		A015C08E2280352900639C94 /* ProcedureCppCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProcedureCppCode.m; sourceTree = "<group>"; };
+		A015C0912280360000639C94 /* JavaCodeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavaCodeProtocol.h; sourceTree = "<group>"; };
+		A015C0922280366C00639C94 /* ProcedureJavaCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProcedureJavaCode.h; sourceTree = "<group>"; };
+		A015C0932280366C00639C94 /* ProcedureJavaCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProcedureJavaCode.m; sourceTree = "<group>"; };
+		A015C0952280385000639C94 /* OOPFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OOPFactory.h; sourceTree = "<group>"; };
+		A015C0962280385000639C94 /* OOPFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOPFactory.m; sourceTree = "<group>"; };
+		A015C0982280399200639C94 /* ProcedureFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProcedureFactory.h; sourceTree = "<group>"; };
+		A015C0992280399200639C94 /* ProcedureFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProcedureFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +79,9 @@
 		A015C06A227DB48000639C94 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
+				A015C09B228044E200639C94 /* Factory */,
+				A015C090228035B800639C94 /* Java */,
+				A015C08B228033D800639C94 /* Cpp */,
 				A015C06B227DB48000639C94 /* AppDelegate.h */,
 				A015C06C227DB48000639C94 /* AppDelegate.m */,
 				A015C06E227DB48000639C94 /* ViewController.h */,
@@ -77,15 +91,44 @@
 				A015C076227DB48300639C94 /* LaunchScreen.storyboard */,
 				A015C079227DB48300639C94 /* Info.plist */,
 				A015C07A227DB48300639C94 /* main.m */,
-				A015C081227DB4A400639C94 /* Protocol.h */,
-				A015C082227DE01000639C94 /* JavaCode.h */,
-				A015C083227DE01000639C94 /* JavaCode.m */,
-				A015C085227DE02900639C94 /* CppCode.h */,
-				A015C086227DE02900639C94 /* CppCode.m */,
-				A015C088227DE51900639C94 /* AbstractFactory.h */,
-				A015C089227DE51900639C94 /* AbstractFactory.m */,
 			);
 			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		A015C08B228033D800639C94 /* Cpp */ = {
+			isa = PBXGroup;
+			children = (
+				A015C085227DE02900639C94 /* OOPCppCode.h */,
+				A015C086227DE02900639C94 /* OOPCppCode.m */,
+				A015C08C2280346600639C94 /* CppCodeProtocol.h */,
+				A015C08D2280352800639C94 /* ProcedureCppCode.h */,
+				A015C08E2280352900639C94 /* ProcedureCppCode.m */,
+			);
+			name = Cpp;
+			sourceTree = "<group>";
+		};
+		A015C090228035B800639C94 /* Java */ = {
+			isa = PBXGroup;
+			children = (
+				A015C082227DE01000639C94 /* OOPJavaCode.h */,
+				A015C083227DE01000639C94 /* OOPJavaCode.m */,
+				A015C0912280360000639C94 /* JavaCodeProtocol.h */,
+				A015C0922280366C00639C94 /* ProcedureJavaCode.h */,
+				A015C0932280366C00639C94 /* ProcedureJavaCode.m */,
+			);
+			path = Java;
+			sourceTree = "<group>";
+		};
+		A015C09B228044E200639C94 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				A015C088227DE51900639C94 /* Factory.h */,
+				A015C0952280385000639C94 /* OOPFactory.h */,
+				A015C0962280385000639C94 /* OOPFactory.m */,
+				A015C0982280399200639C94 /* ProcedureFactory.h */,
+				A015C0992280399200639C94 /* ProcedureFactory.m */,
+			);
+			name = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +203,12 @@
 			files = (
 				A015C070227DB48000639C94 /* ViewController.m in Sources */,
 				A015C07B227DB48300639C94 /* main.m in Sources */,
-				A015C08A227DE51900639C94 /* AbstractFactory.m in Sources */,
-				A015C084227DE01000639C94 /* JavaCode.m in Sources */,
-				A015C087227DE02900639C94 /* CppCode.m in Sources */,
+				A015C08F2280352900639C94 /* ProcedureCppCode.m in Sources */,
+				A015C09A2280399200639C94 /* ProcedureFactory.m in Sources */,
+				A015C0942280366C00639C94 /* ProcedureJavaCode.m in Sources */,
+				A015C084227DE01000639C94 /* OOPJavaCode.m in Sources */,
+				A015C0972280385000639C94 /* OOPFactory.m in Sources */,
+				A015C087227DE02900639C94 /* OOPCppCode.m in Sources */,
 				A015C06D227DB48000639C94 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

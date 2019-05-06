@@ -1,5 +1,5 @@
 //
-//  Protocol.h
+//  AbstractFactory.h
 //  AbstractFactory
 //
 //  Created by Вова on 04.05.2019.
@@ -8,8 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol AbstractFactoryProtocol <NSObject>
+NS_ASSUME_NONNULL_BEGIN
 
-- (void) writeCode: (NSString *)programmingStyle;
+@protocol Factory <NSObject>
+
+- (void)writeJavaCode;
+- (void)writeCppCode;
 
 @end
+
+NS_ASSUME_NONNULL_END

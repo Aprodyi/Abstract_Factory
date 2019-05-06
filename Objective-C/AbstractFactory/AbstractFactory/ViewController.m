@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "AbstractFactory.h"
+#import "OOPFactory.h"
+#import "ProcedureFactory.h"
 
 @interface ViewController ()
 
@@ -18,13 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    id JavaLanguage = [AbstractFactory createCode:Java];
-    [JavaLanguage writeCode:@"ООП"];
-    [JavaLanguage writeCode:@"Процедурного"];
+    OOPFactory *factoryOOP = [OOPFactory new];
+    [factoryOOP writeJavaCode];
+    [factoryOOP writeCppCode];
     
-    id CppLanguage = [AbstractFactory createCode:Cpp];
-    [CppLanguage writeCode:@"ООП"];
-    [CppLanguage writeCode:@"Процедурного"];
+    ProcedureFactory *factoryProcedure = [ProcedureFactory new];
+    [factoryProcedure writeJavaCode];
+    [factoryProcedure writeCppCode];
 }
 
 

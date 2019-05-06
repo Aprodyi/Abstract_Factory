@@ -1,17 +1,17 @@
 //
-//  CppCode.h
+//  CppFactory.h
 //  AbstractFactory
 //
-//  Created by Вова on 04.05.2019.
+//  Created by Вова on 06.05.2019.
 //  Copyright © 2019 Вова. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "Protocol.h"
+#import "Factory.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CppCode : NSObject <AbstractFactoryProtocol>
+@interface OOPFactory : NSObject <Factory>
 
 @end
 

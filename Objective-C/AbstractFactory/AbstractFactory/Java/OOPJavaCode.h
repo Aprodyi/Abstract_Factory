@@ -1,5 +1,5 @@
 //
-//  AbstractFactory.h
+//  JavaCode.h
 //  AbstractFactory
 //
 //  Created by Вова on 04.05.2019.
@@ -7,18 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Protocol.h"
+#import "JavaCodeProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef enum codeTypes {
-    Java,
-    Cpp
-} CodeTypes;
-
-@interface AbstractFactory : NSObject
-
-+ (id<AbstractFactoryProtocol>) createCode: (CodeTypes)type;
+@interface OOPJavaCode : NSObject <JavaCode>
 
 @end
 
